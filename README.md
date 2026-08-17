@@ -1,7 +1,7 @@
-# Residential Property Price Prediction
+# property Price Prediction
 
-This project builds a machine learning application to predict residential property prices using attributes such as location, area, number of bedrooms, number of bathrooms, age of the property, and other key features.
-
+This project builds a machine learning application to predict residential property prices using attributes such as location, area, number of bedrooms, number of bathrooms, age of the property, and other key features.Property Price Prediction is a machine learning project that predicts the estimated price of a property based on various property-related features.
+The project demonstrates the complete machine learning workflow, including data generation/collection, data preprocessing, exploratory data analysis, model training, model evaluation, model saving, and price prediction.
 ## Project Goals
 - Clean and preprocess the dataset
 - Perform exploratory data analysis (EDA)
@@ -88,6 +88,17 @@ If you want to use a custom dataset, place it in `data/raw/` and update the file
 
 The project trains a gradient boosting regressor after preprocessing categorical variables and scaling numeric values. A pipeline is used to combine preprocessing and modeling for clean training and deployment.
 
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Joblib
+- Matplotlib
+- Jupyter Notebook
+- Git
+- GitHub
 ## Evaluation Metrics
 
 The model is evaluated using:
