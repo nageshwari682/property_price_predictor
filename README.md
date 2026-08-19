@@ -1,4 +1,4 @@
-# Residential Property Price Prediction
+## Property Price Prediction
 
 This project builds a machine learning application to predict residential property prices using attributes such as location, area, number of bedrooms, number of bathrooms, age of the property, and other key features.
 
@@ -120,6 +120,3 @@ price = predict_property_price(sample)
 print(f"Estimated property price: ${price:,.2f}")
 ```
 
-## Licenses and Notes
-
-This project is intended for educational and portfolio use. You can adapt the code to your own dataset and extend the model with additional features.
